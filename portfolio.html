@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="portfoliostyle.css">
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+  </head>
+  
+</head>
+<body>
+  <div id="header">
+     <div class="container">
+      <nav>
+      <img src="" class="logo">
+      <ul id="sidemenu">
+        <li><a href="#header">Home</a></li>
+        <li><a href="#about">about</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">contact</a></li>
+        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+      </ul>
+      <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="headertext">
+        <h1>Hello World,</h1>
+        <h1>I'm <span>Pranitha</span> Loyapally</h1>
+      </div>
+    </div> 
+  </div>
+  <div id="about">
+    <div class="container">
+      
+        <div class="about1">
+          
+        </div>
+        <div class="about2">
+          <h3 class="subtitle">About Me</h3>
+          <p>Hey there! I'm Pranitha, a dedicated student from suchitra currently studying at Malla Reddy Engineering College for Women(Autonomous). My passion lies in Web development, where I've honed my skills through various projects. With a strong emphasis on communication, I thrive in collaborative environments. I believe in continuous learning and embracing challenges as opportunities for growth. Ultimately, my goal is to become a developer, contributing to impactful projects that drive innovation. Dive deeper into my portfolio to explore some of my projects and get a glimpse into my coding journey. If you're passionate about technology and innovation, I'd love to connect and explore potential collaborations!</p>
+          <div class="tabtitles">
+            <p class="tablinks active" onclick="opentab('skills')">Skills</p>
+            <p class="tablinks" onclick="opentab('Education')">Education</p>
+          </div>
+          <div class="tabcontains activetab" id="skills">
+            <ul>
+              <li><span>C</span><br>Proficient in C programming </li>
+		<li><span>DSA</span><br>Proficient in DSA programming </li>
+              <li><span>Front-End Development</span><br>Proficient in front-end development, specializing in HTML, CSS, and JavaScript, with experience in modern frameworks like React.js.</li>
+            </ul>
+          </div>
+          <div class="tabcontains" id="Education">
+            <ul>
+              <li><span>B.Tech</span><br>from Malla Reddy Engineering College for Women(Autonomous) (studying)<br>Maisammaguda,Hyderabad</li>
+              <li><span>Diploma</span><br>from Government Institute of Electronics <br>East Marredpally,Hyderabad <br>2022</li>
+              <li><span>Schooling</span><br>from Gnanadeep High School <br>Rajanna Siricilla,Hyderabad <br>2018</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+  </div>
+  <!-- ------------portfolio--------------->
+  <div id="portfolio">
+    <div class="container">
+      <h3 class="subtitle">MY WORK</h3>
+      <div class="worklist">
+        <div class="work">
+          <img src="https://ditasolutions.com/wp-content/uploads/2020/12/AdobeStock_232757497-2048x1152.jpeg">
+    <div class="layer">
+            <h3>E learning Website</h3>
+            <p> A website that offers learners interaction and collaboration on eLearning content like courses, presentations.</p>
+            <a href="https://github.com/Pranitha711/Elearning-Website.git"><i class="fa-solid fa-share-from-square"></i></a>
+          </div>
+       
+        </div>
+        <div class="work">
+          <img src="ecommerce.jpg">
+          <div class="layer">
+            <h3>Ecommerce Website</h3>
+            <p>An ecommerce platform is a software application that allows you to create, manage, and run your online store. </p>
+            <a href="https://github.com/Pranitha711/E-Commerce-website.git"><i class="fa-solid fa-share-from-square"></i></a>
+          </div>
+
+        </div>
+      </div>
+      <!-- <a href="#" class="btn">See more</a> -->
+    </div>
+  </div>
+  
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="subtitle">My Certifications</h1>
+      <div class="worklist">
+        <div class="work">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTew7WAaPOMLzXwa8a8Jph49mGKId-aWb9xvw&s">
+          <div class="layer">
+            <h3></h3>
+            <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="https://gil4w.eu/wp-content/uploads/2021/12/CISCO.png">
+          <div class="layer">
+            <h3>Programming Essentials in Python: Certified by Cisco Networking Academy</h3>
+            <p>I have successfully completed the "Programming Essentials in Python" course offered by the Cisco Networking Academy.</p>
+            <a href="cisco-certificate.jpg"><i class="fa-solid fa-up-right-from-square"></i></a>
+            
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- --------contact------ -->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contactleft">
+          <h1 class="subtitle">Contact me</h1>
+          <p><i class="fa-solid fa-paper-plane"></i>pranithaloyapally@gmail.com</p>
+          <p><i class="fa-solid fa-phone"></i>7093652213</p>
+          <div class="social">
+            <a href="https://www.linkedin.com/in/pranitha-loyapally-b9633b2a0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.facebook.com/share/mJUQZvV9jwwdepQm/?mibextid=qi1Omg"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/pranitha_rao711_?igsh=NXpvMHdlZjJ0aHVi/"><i class="fa-brands fa-instagram"></i></a>
+
+         
+        </div>
+         <div class="contactright">
+          <form name="submit-to-google-sheet" >
+            <input type="text" name="Name" placeholder="Name" required>
+            <input type="text"  name="Email" placeholder="your email" required>
+            <textarea name="Message" rows="6" placeholder="Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+          <span id="msg"></span>
+
+         </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>© 2024 Pranitha Loyapally. Thank You for Visiting             <i class="fa-solid fa-heart"></i></p>
+    </div>
+  </div>
+  <script>
+  var tablinks = document.getElementsByClassName("tablinks");
+  var tabcontains = document.getElementsByClassName("tabcontains");
+  
+  function opentab(tabname) {
+    for(tablink of tablinks) {
+      tablink.classList.remove("active");
+    }
+    for (tabcon of tabcontains) {
+      tabcon.classList.remove("activetab");
+    }
+    event.currentTarget.classList.add("active");
+    document.getElementById(tabname).classList.add("activetab");
+  }
+</script>
+<script>
+  var sidemeu = document.getElementById("sidemenu");
+  function openmenu(){
+    sidemeu.style.right="0";
+  }
+  function closemenu(){
+    sidemeu.style.right="-200px";
+  }
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyaP481pAkHrl9oGaY5IxghbH9e8l7p1ZIYo9JKREKnrcImpTZjgtwpcr2wogfHAgNhtA/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg=document.getElementById('msg');
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response =>{msg.innerHTML= "Message sent successfully"
+      setTimeout(function(){
+      msg.innerHTML=""
+      },1000)
+      form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
